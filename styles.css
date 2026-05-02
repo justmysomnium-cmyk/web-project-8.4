@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "TTLakes";
+  src: url("assets/fonts/TTLakes-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes";
+  src: url("assets/fonts/TTLakes-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes";
+  src: url("assets/fonts/TTLakes-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTLakes";
+  src: url("assets/fonts/TTLakes-Thin.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+.readmore {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+  font-family: "TTLakes", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+.header {
+  background-color: #ffffff;
+  padding: 16px;
+}
+.header h1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
