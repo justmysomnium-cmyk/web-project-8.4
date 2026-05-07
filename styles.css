@@ -46,6 +46,22 @@ body {
   font-weight: 400;
 }
 .swiper {
-  width: 600px;
-  height: 300px;
+  position: relative;
+  padding: 20px;
+  max-width: 320px;
+  background-color: #f8f8f8;
+}
+.swiper-slide {
+  max-width: 240px;
+  max-height: 72px;
+  text-align: center;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+.swiper-pagination {
+  display: block;
 }

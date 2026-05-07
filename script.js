@@ -5,7 +5,7 @@ const mainSectionChildren = mainSection.children;
 let mySwiper;
 
 function initSwiper() {
-  if (windowWidth > 768) {
+  if (window.innerWidth > 768) {
     // Убираю обьъект свайпер чтобы отключить его на больших экранах.
     if (mySwiper) {
       mySwiper.destroy(true, true);
@@ -18,7 +18,7 @@ function initSwiper() {
         clickable: true,
       },
       spaceBetween: 10,
-      slidesPerView: 1.2,
+      slidesPerView: 1.1,
     });
   }
 }
